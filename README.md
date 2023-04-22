@@ -1,5 +1,5 @@
 # Smart-bot
-Hii there this is a group "iotvers" which is heading towards the invention of new incredible IOT  device.
+Hii there this is a group "iotvers" which is heading towards the era of invention of new incredible IOT  device.
 
 
 This is our 2nd project —"Smart bot"
