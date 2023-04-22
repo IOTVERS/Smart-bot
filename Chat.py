@@ -1,5 +1,7 @@
 import openai
 
+openai.api_key = <API-KEY> # Enter your API Key here 
+
 message_history = []
 
 def chat(inp, role="user"):
@@ -8,17 +10,17 @@ def chat(inp, role="user"):
 
     completion = openai.ChatCompletion.create(
 
-        model = "gpt-3.5-turbo",
+        model = "gpt-3.5-turbo", # gpt version 
 
         messages=message_history,
 
     )
 
-    reply_content = completion.choices[0].message.content
+    reply_content = completion.choices[0].message.content # It will simplify the output 
 
     Print(reply_content)
 
-    message_history.append({"role": "assistant", "content": reply_content})
+    message_history.append({"role": "assistant", "content": reply_content})  # For storing your massage history 
 
     return reply_content
 
