@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = <API-KEY> # Enter your API Key here 
+openai.api_key = "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" # Enter your API Key here 
 
 message_history = []
 
