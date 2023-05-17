@@ -7,4 +7,4 @@ This is our 2nd project —"Smart bot"
 
 
 
-In this project we built a AI bot which can talk to you like a friend ang also use chat-GPT to help you with your problem 
+In this project we built a bot which can talk to you like a friend ang also use chat-GPT to help you with your problem 
